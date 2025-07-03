@@ -1,31 +1,22 @@
-# Makefile for deploying Flutter web app to GitHub Pages
-# Update these variables
 BASE_HREF = '/'
-GITHUB_REPO = git@github.com:walterduesing85/terratrace.git
 BUILD_VERSION = $(shell grep 'version:' pubspec.yaml | awk '{print $$2}')
+BRANCH = main
 
-deploy-web:
-	@echo "Clean existing repository..."
+deploy-ionos:
+	@echo "🔄 Cleaning project..."
 	flutter clean
 
-	@echo "Getting packages..."
+	@echo "📦 Getting Flutter packages..."
 	flutter pub get
 
-	@echo "Building web app..."
-	flutter build web --web-renderer html --base-href $(BASE_HREF) --release --dart-define=FLUTTER_WEB_USE_SKIA=true --dart-define=FLUTTER_WEB_AUTO_DETECT=true
+	@echo "🛠️  Building Flutter web app..."
+	flutter build web --web-renderer html --base-href $(BASE_HREF) --release
 
-	@echo "Deploying to git repository..."
+	@echo "✅ Committing updated source code..."
+	git add .
+	git commit -m "Deploy version $(BUILD_VERSION)"
+	git push origin $(BRANCH)
 
-	cd build/web && \
-	git init && \
-	git remote add origin $(GITHUB_REPO) && \
-	git add . && \
-	git commit -m "Deploy Version $(BUILD_VERSION)" && \
-	git branch -M main && \
-	git push -u --force origin main
+	@echo "🚀 Deployment triggered on IONOS (via GitHub push)."
 
-	cd ../..
-
-	@echo "Deploy finished."
-
-.PHONY: deploy-web
+.PHONY: deploy-ionos
