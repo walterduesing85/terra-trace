@@ -65,34 +65,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-     - assets/images/partners_c13.png
-     - assets/images/partners_florenz.png
-     - assets/images/partners_gfz.png
-     - assets/images/gallery_aya_walt.jpeg
-     - assets/images/gallery_wd_sticker.jpeg
-     - assets/images/background_01.png
-     - assets/images/gallery_team_vulcano.jpeg
-     - assets/images/gallery_workshop_1.jpg
-     - assets/images/gallery_measure_video.mp4
-     - assets/images/hand2.png
-     - assets/images/icon_01.png
-     - assets/images/icon_02.png
-     - assets/images/icon_03.png
-     - assets/images/icon_04.png
-     - assets/images/ai_network.png
-     - assets/images/walter_image.png
-     - assets/images/giorgio.png
-     - assets/images/satelite_01.png
-     - assets/images/share.png
-     - assets/images/histo.png
-     - assets/images/logo_terratrace.png
-     - assets/images/background_mobile.png
-     - assets/images/satelite_backside.png
-     - assets/images/hand2_small.png
-     - assets/images/francy.png
-     - assets/images/aya.png
-     - assets/images/terratrace_logo.svg
-     - assets/images/vulcano_chamber.jpeg
+     - assets/images/
 
   #   - images/a_dot_ham.jpeg
 
