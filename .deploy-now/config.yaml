@@ -15,3 +15,4 @@ exclude:
   - *.log
   - *.lock
   - pubspec.lock
+
