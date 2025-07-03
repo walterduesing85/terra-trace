@@ -99,7 +99,7 @@ class _FeatureContainerState extends State<FeatureContainer> {
                         children: [
                           Features(
                             constraints: widget.constraints,
-                            imageUrl: 'images/satelite_01.png',
+                            imageUrl: 'assets/images/satelite_01.png',
                             text: RichText(
                               textAlign: TextAlign.center,
                               text: TextSpan(
@@ -132,7 +132,7 @@ class _FeatureContainerState extends State<FeatureContainer> {
                             },
                             child: FlipCard(
                               back: BackSideFeatures(
-                                  imageUrl: 'images/satelite_backside.png',
+                                  imageUrl: 'assets/images/satelite_backside.png',
                                   text: sateliteBackSide,
                                   constraints: widget.constraints),
                               fill: Fill
@@ -141,7 +141,7 @@ class _FeatureContainerState extends State<FeatureContainer> {
                               side: CardSide.FRONT,
                               front: Features(
                                 constraints: widget.constraints,
-                                imageUrl: 'images/share.png',
+                                imageUrl: 'assets/images/share.png',
                                 text: RichText(
                                   textAlign: TextAlign.center,
                                   text: TextSpan(
@@ -175,7 +175,7 @@ class _FeatureContainerState extends State<FeatureContainer> {
                         children: [
                           Features(
                             constraints: widget.constraints,
-                            imageUrl: 'images/histo.png',
+                            imageUrl: 'assets/images/histo.png',
                             text: RichText(
                               textAlign: TextAlign.center,
                               text: TextSpan(
@@ -211,7 +211,7 @@ class _FeatureContainerState extends State<FeatureContainer> {
                           ),
                           Features(
                             constraints: widget.constraints,
-                            imageUrl: 'images/icon_01.png',
+                            imageUrl: 'assets/images/icon_01.png',
                             text: RichText(
                               textAlign: TextAlign.center,
                               text: TextSpan(
@@ -247,7 +247,7 @@ class _FeatureContainerState extends State<FeatureContainer> {
                     children: [
                       Features(
                         constraints: widget.constraints,
-                        imageUrl: 'images/satelite_01.png',
+                        imageUrl: 'assets/images/satelite_01.png',
                         text: RichText(
                           textAlign: TextAlign.center,
                           text: TextSpan(
@@ -274,7 +274,7 @@ class _FeatureContainerState extends State<FeatureContainer> {
                       ),
                       Features(
                         constraints: widget.constraints,
-                        imageUrl: 'images/share.png',
+                        imageUrl: 'assets/images/share.png',
                         text: RichText(
                           textAlign: TextAlign.center,
                           text: TextSpan(
@@ -299,7 +299,7 @@ class _FeatureContainerState extends State<FeatureContainer> {
                       ),
                       Features(
                         constraints: widget.constraints,
-                        imageUrl: 'images/histo.png',
+                        imageUrl: 'assets/images/histo.png',
                         text: RichText(
                           textAlign: TextAlign.center,
                           text: TextSpan(
@@ -331,7 +331,7 @@ class _FeatureContainerState extends State<FeatureContainer> {
                       ),
                       Features(
                         constraints: widget.constraints,
-                        imageUrl: 'images/icon_01.png',
+                        imageUrl: 'assets/images/icon_01.png',
                         text: RichText(
                           textAlign: TextAlign.center,
                           text: TextSpan(

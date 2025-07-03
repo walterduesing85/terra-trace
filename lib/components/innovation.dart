@@ -54,7 +54,7 @@ class Innovation extends StatelessWidget {
             ),
             decoration: const BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('images/ai_network.png'),
+                image: AssetImage('assets/images/ai_network.png'),
                 fit: BoxFit.fill,
               ),
             ),

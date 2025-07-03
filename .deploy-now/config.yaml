@@ -1,5 +1,5 @@
 exclude:
-  - images/**
+  - assets/images/**
   - android/**
   - ios/**
   - linux/**

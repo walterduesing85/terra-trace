@@ -68,7 +68,7 @@ class MobileVersionState extends State<MobileVersion> {
                   ),
                   decoration: const BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage('images/background_mobile.png'),
+                      image: AssetImage('assets/images/background_mobile.png'),
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -107,7 +107,7 @@ class MobileVersionState extends State<MobileVersion> {
                   ),
                   decoration: const BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage('images/vulcano_chamber.jpeg'),
+                      image: AssetImage('assets/images/vulcano_chamber.jpeg'),
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -171,7 +171,7 @@ class MobileVersionState extends State<MobileVersion> {
                                 800),
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage('images/ai_network.png'),
+                            image: AssetImage('assets/images/ai_network.png'),
                             scale: 10,
                             fit: BoxFit.cover,
                           ),
@@ -297,7 +297,7 @@ class MobileVersionState extends State<MobileVersion> {
                                 maxHeight: 24 * 1.2,
                               ),
                               child: SvgPicture.asset(
-                                'images/terratrace_logo.svg', // Replace 'logo_terratrace.svg' with your SVG file path
+                                'assets/images/terratrace_logo.svg', // Replace 'logo_terratrace.svg' with your SVG file path
                                 color: const Color.fromRGBO(213, 255, 111, 1),
                                 fit: BoxFit.contain,
                               ),

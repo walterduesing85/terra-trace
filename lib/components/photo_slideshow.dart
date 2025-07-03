@@ -21,11 +21,11 @@ class _PhotoSlideshowState extends State<PhotoSlideshow> {
   bool _isVideoPlaying = false;
   
   final List<String> _images = [
-    'images/gallery_team_vulcano.jpeg',
-    'images/gallery_workshop_1.jpg',
-    'images/gallery_measure_video.mp4',
-    'images/gallery_aya_walt.jpeg',
-    'images/gallery_wd_sticker.jpeg',
+    'assets/images/gallery_team_vulcano.jpeg',
+    'assets/images/gallery_workshop_1.jpg',
+    'assets/images/gallery_measure_video.mp4',
+    'assets/images/gallery_aya_walt.jpeg',
+    'assets/images/gallery_wd_sticker.jpeg',
   ];
 
   @override

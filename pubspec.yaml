@@ -65,36 +65,35 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-     - images/partners_c13.png
-     - images/partners_florenz.png
-     - images/partners_gfz.png
-     - images/gallery_team_vulcano.jpeg
-     - images/gallery_aya_walt.jpeg
-     - images/gallery_wd_sticker.jpeg
-     - images/background_01.png
-     - images/gallery_team_vulcano.jpeg
-     - images/gallery_workshop_1.jpg
-     - images/gallery_measure_video.mp4
-     - images/hand2.png
-     - images/icon_01.png
-     - images/icon_02.png
-     - images/icon_03.png
-     - images/icon_04.png
-     - images/ai_network.png
-     - images/walter_image.png
-     - images/giorgio.png
-     - images/satelite_01.png
-     - images/share.png
-     - images/histo.png
-     - images/logo_terratrace.png
-     - images/background_mobile.png
-
-     - images/satelite_backside.png
-     - images/hand2_small.png
-     - images/francy.png
-     - images/aya.png
-     - images/terratrace_logo.svg
-     - images/vulcano_chamber.jpeg
+     - assets/images/partners_c13.png
+     - assets/images/partners_florenz.png
+     - assets/images/partners_gfz.png
+     - assets/images/gallery_team_vulcano.jpeg
+     - assets/images/gallery_aya_walt.jpeg
+     - assets/images/gallery_wd_sticker.jpeg
+     - assets/images/background_01.png
+     - assets/images/gallery_team_vulcano.jpeg
+     - assets/images/gallery_workshop_1.jpg
+     - assets/images/gallery_measure_video.mp4
+     - assets/images/hand2.png
+     - assets/images/icon_01.png
+     - assets/images/icon_02.png
+     - assets/images/icon_03.png
+     - assets/images/icon_04.png
+     - assets/images/ai_network.png
+     - assets/images/walter_image.png
+     - assets/images/giorgio.png
+     - assets/images/satelite_01.png
+     - assets/images/share.png
+     - assets/images/histo.png
+     - assets/images/logo_terratrace.png
+     - assets/images/background_mobile.png
+     - assets/images/satelite_backside.png
+     - assets/images/hand2_small.png
+     - assets/images/francy.png
+     - assets/images/aya.png
+     - assets/images/terratrace_logo.svg
+     - assets/images/vulcano_chamber.jpeg
 
   #   - images/a_dot_ham.jpeg
 

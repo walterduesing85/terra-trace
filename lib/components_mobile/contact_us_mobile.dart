@@ -58,7 +58,7 @@ class ContactUsMobileState extends State<ContactUsMobile> {
               width: 120,
               height: 20,
               child: SvgPicture.asset(
-                'images/terratrace_logo.svg', // Replace 'logo_terratrace.svg' with your SVG file path
+                'assets/images/terratrace_logo.svg', // Replace 'logo_terratrace.svg' with your SVG file path
                 color: const Color.fromRGBO(213, 255, 111, 1),
                 fit: BoxFit.contain,
               ),

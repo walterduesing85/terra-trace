@@ -24,7 +24,7 @@ class SwitcherTestExampleState extends State<SwitcherTestExample> {
             // Use SwitcherTest widget and pass front and back TestFeature widgets
             SwitcherTest(
               frontWidget: TestFeature(
-                imageUrl: 'images/share.png',
+                imageUrl: 'assets/images/share.png',
                 text: RichText(
                   textAlign: TextAlign.center,
                   text: TextSpan(
@@ -59,7 +59,7 @@ class SwitcherTestExampleState extends State<SwitcherTestExample> {
                 },
               ),
               backWidget: TestFeature(
-                imageUrl: 'images/walter_image.png',
+                imageUrl: 'assets/images/walter_image.png',
                 text: RichText(
                   textAlign: TextAlign.center,
                   text: TextSpan(
@@ -98,7 +98,7 @@ class SwitcherTestExampleState extends State<SwitcherTestExample> {
             ),
             SwitcherTest(
               frontWidget: TestFeature(
-                imageUrl: 'images/share.png',
+                imageUrl: 'assets/images/share.png',
                 text: RichText(
                   textAlign: TextAlign.center,
                   text: TextSpan(
@@ -133,7 +133,7 @@ class SwitcherTestExampleState extends State<SwitcherTestExample> {
                 },
               ),
               backWidget: TestFeature(
-                imageUrl: 'images/walter_image.png',
+                imageUrl: 'assets/images/walter_image.png',
                 text: RichText(
                   textAlign: TextAlign.center,
                   text: TextSpan(

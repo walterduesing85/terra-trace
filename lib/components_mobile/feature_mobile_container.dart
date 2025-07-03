@@ -68,7 +68,7 @@ class FeatureMobileContainer extends StatelessWidget {
                     children: [
                       FeatureMobile(
                         constraints: constraints,
-                        imageUrl: 'images/satelite_01.png',
+                        imageUrl: 'assets/images/satelite_01.png',
                         text: RichText(
                           textAlign: TextAlign.center,
                           text: TextSpan(
@@ -93,7 +93,7 @@ class FeatureMobileContainer extends StatelessWidget {
                       ),
                       FeatureMobile(
                         constraints: constraints,
-                        imageUrl: 'images/share.png',
+                        imageUrl: 'assets/images/share.png',
                         text: RichText(
                           textAlign: TextAlign.center,
                           text: TextSpan(
@@ -122,7 +122,7 @@ class FeatureMobileContainer extends StatelessWidget {
                     children: [
                       FeatureMobile(
                         constraints: constraints,
-                        imageUrl: 'images/histo.png',
+                        imageUrl: 'assets/images/histo.png',
                         text: RichText(
                           textAlign: TextAlign.center,
                           text: TextSpan(
@@ -150,7 +150,7 @@ class FeatureMobileContainer extends StatelessWidget {
                       ),
                       FeatureMobile(
                         constraints: constraints,
-                        imageUrl: 'images/icon_01.png',
+                        imageUrl: 'assets/images/icon_01.png',
                         text: RichText(
                           textAlign: TextAlign.center,
                           text: TextSpan(

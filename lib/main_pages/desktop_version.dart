@@ -50,9 +50,9 @@ class DesktopVersionState extends State<DesktopVersion> {
 
   void _preloadImages() {
     // Preload critical images
-    precacheImage(const AssetImage('images/background_01.png'), context);
-    precacheImage(const AssetImage('images/vulcano_chamber.jpeg'), context);
-    precacheImage(const AssetImage('images/ai_network.png'), context);
+    precacheImage(const AssetImage('assets/images/background_01.png'), context);
+    precacheImage(const AssetImage('assets/images/vulcano_chamber.jpeg'), context);
+    precacheImage(const AssetImage('assets/images/ai_network.png'), context);
   }
 
   @override
@@ -78,7 +78,7 @@ class DesktopVersionState extends State<DesktopVersion> {
                       maxHeight: MediaQuery.of(context).size.height),
                   decoration: const BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage('images/background_01.png'),
+                      image: AssetImage('assets/images/background_01.png'),
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -116,7 +116,7 @@ class DesktopVersionState extends State<DesktopVersion> {
                         MediaQuery.of(context).size.width > 900 ? 854.0 : 1200,
                   ),     decoration: const BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage('images/vulcano_chamber.jpeg'),
+                      image: AssetImage('assets/images/vulcano_chamber.jpeg'),
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -192,7 +192,7 @@ class DesktopVersionState extends State<DesktopVersion> {
                                       : 845),
                           decoration: const BoxDecoration(
                             image: DecorationImage(
-                              image: AssetImage('images/ai_network.png'),
+                              image: AssetImage('assets/images/ai_network.png'),
                               fit: BoxFit.cover,
                             ),
                           ),
@@ -311,7 +311,7 @@ class DesktopVersionState extends State<DesktopVersion> {
                                 maxHeight: 38.5,
                               ),
                               child: SvgPicture.asset(
-                                'images/terratrace_logo.svg',
+                                'assets/images/terratrace_logo.svg',
                                 color: const Color.fromRGBO(213, 255, 111, 1),
                                 fit: BoxFit.contain,
                               ),

@@ -52,7 +52,7 @@ class PartnersContainer extends StatelessWidget {
                       BlendMode.srcIn,
                     ),
                     child: Image.asset(
-                      'images/partners_c13.png',
+                      'assets/images/partners_c13.png',
                       fit: BoxFit.contain,
                     ),
                   ),
@@ -70,7 +70,7 @@ class PartnersContainer extends StatelessWidget {
                       BlendMode.srcIn,
                     ),
                     child: Image.asset(
-                      'images/partners_florenz.png',
+                      'assets/images/partners_florenz.png',
                       fit: BoxFit.contain,
                     ),
                   ),
@@ -88,7 +88,7 @@ class PartnersContainer extends StatelessWidget {
                       BlendMode.srcIn,
                     ),
                     child: Image.asset(
-                      'images/partners_gfz.png',
+                      'assets/images/partners_gfz.png',
                       fit: BoxFit.contain,
                     ),
                   ),

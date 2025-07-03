@@ -1,4 +1,3 @@
-
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -20,9 +19,9 @@ extension on Face {
   AssetImage get image {
     switch (this) {
       case Face.front:
-        return const AssetImage('images/walter_image.png');
+        return const AssetImage('assets/images/walter_image.png');
       case Face.back:
-        return const AssetImage('images/markus.png');
+        return const AssetImage('assets/images/markus.png');
     }
   }
 }

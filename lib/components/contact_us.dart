@@ -140,7 +140,7 @@ class ContactUsState extends State<ContactUs> {
                 maxHeight: widget.constraints < 800 ? 19.25 : 38.5,
               ),
               child: SvgPicture.asset(
-                'images/terratrace_logo.svg',
+                'assets/images/terratrace_logo.svg',
                 color: const Color.fromRGBO(213, 255, 111, 1),
                 fit: BoxFit.contain,
               ),
