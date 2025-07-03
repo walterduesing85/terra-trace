@@ -7,4 +7,11 @@ exclude:
   - windows/**
   - test/**
   - .dart_tool/**
-  - build/** 
+  - build/**
+  - .git/**
+  - .github/**
+  - .vscode/**
+  - *.md
+  - *.log
+  - *.lock
+  - pubspec.lock
